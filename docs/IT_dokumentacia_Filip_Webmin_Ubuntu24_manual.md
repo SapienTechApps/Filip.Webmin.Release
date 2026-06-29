@@ -141,7 +141,7 @@ Webmin je administrátorské webové rozhranie na správu Linux servera. Preto s
 Release stránka:
 
 ```text
-https://github.com/SapienTechApps/Filip.Webmin/releases/tag/v0.1.0
+https://github.com/SapienTechApps/Filip.Webmin.Release/releases/tag/v0.1.0
 ```
 
 Na serveri:
@@ -151,10 +151,10 @@ mkdir -p ~/filip-webmin-release
 cd ~/filip-webmin-release
 
 curl -L -o filip-webmin \
-  https://github.com/SapienTechApps/Filip.Webmin/releases/download/v0.1.0/filip-webmin-linux-x86_64
+  https://github.com/SapienTechApps/Filip.Webmin.Release/releases/download/v0.1.0/filip-webmin-linux-x86_64
 
 curl -L -o filip-webmin-linux-x86_64.sha256 \
-  https://github.com/SapienTechApps/Filip.Webmin/releases/download/v0.1.0/filip-webmin-linux-x86_64.sha256
+  https://github.com/SapienTechApps/Filip.Webmin.Release/releases/download/v0.1.0/filip-webmin-linux-x86_64.sha256
 
 chmod +x filip-webmin
 ```
@@ -583,7 +583,7 @@ NO-GO pre verejné vystavenie Webminu do internetu bez samostatného bezpečnost
 # 13 POUŽITÉ ODKAZY
 
 - Filip.Webmin GitHub: https://github.com/SapienTechApps/Filip.Webmin
-- Filip.Webmin v0.1.0 release: https://github.com/SapienTechApps/Filip.Webmin/releases/tag/v0.1.0
+- Filip.Webmin public v0.1.0 release: https://github.com/SapienTechApps/Filip.Webmin.Release/releases/tag/v0.1.0
 - Webmin: https://webmin.com/
 - Webmin downloads/repository: https://download.webmin.com/
 - Ubuntu Server documentation: https://documentation.ubuntu.com/server/
